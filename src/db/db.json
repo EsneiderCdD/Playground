@@ -1,0 +1,18 @@
+{
+    "devtools": [
+        {
+            "id": 1,
+            "name": "Excalidraw",
+            "description": "Pagina que de diseño y dibujo",
+            "url": "https://excalidraw.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYFMIYhJ1NkRNHMetTTIo0voec3sVtthtQQg&s"
+        },
+        {
+            "id": 2,
+            "name": "Draw.io",
+            "description": "Pagina de diseño y dibujo",
+            "url": "https://app.diagrams.net/",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Diagrams.net_Logo.svg/2048px-Diagrams.net_Logo.svg.png"
+        }
+    ]
+}
