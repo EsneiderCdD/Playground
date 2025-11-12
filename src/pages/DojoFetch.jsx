@@ -3,11 +3,10 @@ import NavegationBar from "../components/Navegation/NavegationBar";
 
 function DojoFetch() {
     return (
-        <>
- 
-            <CardFetch></CardFetch>
-        </>
+        <div>
 
+            <CardFetch></CardFetch>
+        </div>
     )
 }
 export default DojoFetch

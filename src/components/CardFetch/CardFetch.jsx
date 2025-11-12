@@ -11,15 +11,19 @@ function CardFetch() {
         <div>
             <h1>Developer Tools</h1>
             <h2>Felicidades crack</h2>
+            <div style={{display:'flex', flexDirection: 'row'}}>
             {developerTools.map((tool) => (
-                <CardFetchProps
-                    key={tool.id}
-                    name={tool.name}
-                    description={tool.description}
-                    image={tool.image}
-                    url={tool.url} >
-                </CardFetchProps>
+                
+                    <CardFetchProps
+                        key={tool.id}
+                        name={tool.name}
+                        description={tool.description}
+                        image={tool.image}
+                        url={tool.url} >
+                    </CardFetchProps>
+              
             ))}
+              </div>
         </div>
     )
 }
