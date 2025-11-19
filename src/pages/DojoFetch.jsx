@@ -1,5 +1,5 @@
 import CardFetch from "../components/CardFetch/CardFetch";
-import DevToolForm from "../components/DevTools/DevToolForm";
+import DevToolForm from "../features/DevTools/DevToolForm";
 import { useDeveloperTools } from "../hooks/devtools/useDeveloperTools";
 
 function DojoFetch() {

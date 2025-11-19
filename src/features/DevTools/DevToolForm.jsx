@@ -1,4 +1,5 @@
 import { useDevToolForm } from "../../hooks/forms/useDevToolForm";
+import PropTypes from "prop-types";
 
 function DevToolForm({ createDevTool }) {
   const { form, submitting, feedback, handleChange, handleSubmit } = useDevToolForm(createDevTool);
@@ -21,9 +22,10 @@ function DevToolForm({ createDevTool }) {
       />
       <input
         name="url"
-        placeholder="URL (opcional)"
+        placeholder="URL"
         value={form.url}
         onChange={handleChange}
+        required
       />
       <input
         name="image"
@@ -38,5 +40,9 @@ function DevToolForm({ createDevTool }) {
     </form>
   );
 }
+
+DevToolForm.propTypes = {
+  createDevTool: PropTypes.func.isRequired,
+};
 
 export default DevToolForm;
