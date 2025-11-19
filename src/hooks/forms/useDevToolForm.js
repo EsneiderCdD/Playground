@@ -26,6 +26,7 @@ export function useDevToolForm(createDevTool) {
       image: form.image.trim() || undefined,
     };
 
+
     if (!payload.name || !payload.description) {
       setFeedback({ type: "error", message: "Nombre y descripción son obligatorios." });
       setSubmitting(false);
