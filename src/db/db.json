@@ -1,74 +1,88 @@
 {
-    "devtools": [
-        {
-            "id": 1,
-            "name": "Excalidraw",
-            "description": "Página de diseño y dibujo colaborativo en línea.",
-            "url": "https://excalidraw.com/",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYFMIYhJ1NkRNHMetTTIo0voec3sVtthtQQg&s"
-        },
-        {
-            "id": 2,
-            "name": "Draw.io",
-            "description": "Herramienta de diagramas y diseño en línea.",
-            "url": "https://app.diagrams.net/",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Diagrams.net_Logo.svg/2048px-Diagrams.net_Logo.svg.png"
-        },
-        {
-            "id": 3,
-            "name": "WebCode Tools",
-            "description": "Web con panel de herramientas para explorar opciones de desarrollo web.",
-            "url": "https://webcode.tools/",
-            "image": "https://example.com/default.png"
-        },
-        {
-            "id": 4,
-            "name": "CSS Grid Generator",
-            "description": "Generador visual de cuadrículas CSS.",
-            "url": "https://cssgrid-generator.netlify.app/",
-            "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/og-cssgrid.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Uiverse",
-            "description": "Colección de componentes UI animados en CSS y HTML listos para copiar y pegar.",
-            "url": "https://uiverse.io/",
-            "image": "https://raw.githubusercontent.com/uiverse-io/.github/main/cover.png"
-        },
-        {
-            "id": 6,
-            "name": "CodePen",
-            "description": "Plataforma para crear, probar y compartir código front-end en tiempo real.",
-            "url": "https://codepen.io/",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LsXeHamXaCQGrhXVzcaXhiS5i-JSO-FtQQ&s"
-        },
-        {
-            "id": 7,
-            "name": "Sesame",
-            "description": "Aplicación para practicar conversaciones en inglés de forma interactiva.",
-            "url": "https://app.sesame.com/",
-            "image": "https://example.com/default.png"
-        },
-        {
-            "id": 8,
-            "name": "Emergent",
-            "description": "Herramienta para construir proyectos con Dualite y Supabase — backend y frontend en un clic.",
-            "url": "https://app.emergent.sh/",
-            "image": "https://pbs.twimg.com/profile_images/1913617233001295872/hYKnojsI_400x400.jpg"
-        },
-        {
-            "id": 9,
-            "name": "CSS Loaders",
-            "description": "Colección de animaciones y cargadores CSS listos para usar.",
-            "url": "https://css-loaders.com/",
-            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEVHcEz9/f39/f39/f3+/v79/v39/v76+vr+/v7+/v78/f39/fz+/v39/f3///9GRka+mWs8PT1RUFDv7erDoHbT1NTp4dfMs5bDw8Fwbmyrq6uTk5ODhITezrvYw6ylo58XCVTMAAAADnRSTlMARyiIxY+JD+SeSUqRRqtY5KEAAAFISURBVDiNjVPZdoQgDMVTHbVLImFH1P//ywmonaXT0vsScnJJbkIQ4oamaweAoe0a8QL9CHcY++f4BZ7w9nh9eI5zqbsk/c9wRl+J3xgv8h9VftF3w+XPAmeRvX9ljMrWGmOLb232RyZkN6KUKMkblMjH5KaCFUCID44HpMKIMls+TLoQNEAjPkucvFJ+DkSGs2+kHedX6wLQiRa8JNolSUzZLHqyp8qWh5AIzUEgjHzVTlqfjIE1EsnDm7MGmr3WrEGvpS0msMIzoSfuApFcJujJZcIAgaT6nozyidMEsIvjVhYu0cKGOD+M76jJUhyL7EBJkrGMK5p7gsqETnxB7hMxJZIbK4wbEQW3LuuUu23KqA0WMGG3tE+aJcD5WDzFMHswMYU0G7Crc25R+2NVn7u6MPWVqy9tde3rH6f+9f7xeTPeX33/K05cMeRjfXaQAAAAAElFTkSuQmCC"
-        },
-        {
-            "id": 10,
-            "name": "CSS Snippets",
-            "description": "Galería de fragmentos CSS reutilizables y elegantes.",
-            "url": "https://cssnippets.shefali.dev/",
-            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA7VBMVEVHcExuTsgVfPQMgPh6R+UHgfkVeP4Qe/tHYOIhcfw2aPBOXd1SWPBQWexEXv8+YvpdVOxVWepEX/lTV/lVVvZWVvlOWvpZVPtYVP5hUPppTfRlTP9uSftsS/V4Re9xRv9xR/55ROyBP/R9P/9+Qfp8QPl9QuuPOPWKOP2jLcySNfuXMf+WM/mcMe6lLPajK/2rKfSzJeShL/GxJvCvJf62I/iyJdKtJ/S8Hv+7IPvBHPzKGfbJF//KF/vCHe3JGuTLGO/VEP/UEf62I9nhC/3oCPnnCPzeD/fdDuriC+roCvPmCfH0Av3tBfTxBPiQRu86AAAAT3RSTlMABlOJC6j/zBHvcB1sRf/QOCXnzpeu9/b/1r3/741n//WbvP//8VLL/xXf//l2z/+zRaaN/+0i4f//9c3/3m5Zqf/4J/7b8c6AMqeP/7PQIJpG2gAAAT1JREFUeAGUTAMCBDEMzNq2zf8/8Jr27J0yIzgEjvus8QIvfsxJsvRRFBVZgE9QNVn/KBqyxr+JmAY+lu24oBuPmuf4lNFtxwPHd7mbJJq+HVAxtCMVAjs2r2EvTNI0o2OQRnilaeQyzcoLgkzFf1lUAGyuca7LhiBnzqYlnNchU1YccP0wDGMNFMYwzfjOEyEnEcRlXfsNGOZ1Zw1ct64riqdGxeoAYSCIgg9IHXzH3d096b8c9nCHufU5SVYuUpHE08jtRUkmqWqaphsnaWoqGIapERw2lk04lgtCtXWqguKxm75ho+P7fqALdHZ8i6oV0CE8fYcRxXGc0OyGcUr7cc04nBDyomDSKEuDyaKIKtzI6oZkWrdU0dU9HhhGOk9zC2LM8MSGA5Z5BSHgHes84hNCM/f4xGYYBPzNAa7WKKib927tAAAAAElFTkSuQmCC"
-        }
-    ]
+  "devtools": [
+    {
+      "id": "1",
+      "name": "Excalidraw",
+      "description": "Página de diseño y dibujo colaborativo en línea.",
+      "url": "https://excalidraw.com/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYFMIYhJ1NkRNHMetTTIo0voec3sVtthtQQg&s"
+    },
+    {
+      "id": "2",
+      "name": "Draw.io",
+      "description": "Herramienta de diagramas y diseño en línea.",
+      "url": "https://app.diagrams.net/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Diagrams.net_Logo.svg/2048px-Diagrams.net_Logo.svg.png"
+    },
+    {
+      "id": "3",
+      "name": "WebCode Tools",
+      "description": "Web con panel de herramientas para explorar opciones de desarrollo web.",
+      "url": "https://webcode.tools/",
+      "image": "https://example.com/default.png"
+    },
+    {
+      "id": "4",
+      "name": "CSS Grid Generator",
+      "description": "Generador visual de cuadrículas CSS.",
+      "url": "https://cssgrid-generator.netlify.app/",
+      "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/og-cssgrid.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Uiverse",
+      "description": "Colección de componentes UI animados en CSS y HTML listos para copiar y pegar.",
+      "url": "https://uiverse.io/",
+      "image": "https://raw.githubusercontent.com/uiverse-io/.github/main/cover.png"
+    },
+    {
+      "id": "6",
+      "name": "CodePen",
+      "description": "Plataforma para crear, probar y compartir código front-end en tiempo real.",
+      "url": "https://codepen.io/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LsXeHamXaCQGrhXVzcaXhiS5i-JSO-FtQQ&s"
+    },
+    {
+      "id": "7",
+      "name": "Sesame",
+      "description": "Aplicación para practicar conversaciones en inglés de forma interactiva.",
+      "url": "https://app.sesame.com/",
+      "image": "https://example.com/default.png"
+    },
+    {
+      "id": "8",
+      "name": "Emergent",
+      "description": "Herramienta para construir proyectos con Dualite y Supabase — backend y frontend en un clic.",
+      "url": "https://app.emergent.sh/",
+      "image": "https://pbs.twimg.com/profile_images/1913617233001295872/hYKnojsI_400x400.jpg"
+    },
+    {
+      "id": "9",
+      "name": "CSS Loaders",
+      "description": "Colección de animaciones y cargadores CSS listos para usar.",
+      "url": "https://css-loaders.com/",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAYFBMVEVHcEz9/f39/f39/f3+/v79/v39/v76+vr+/v7+/v78/f39/fz+/v39/f3///9GRka+mWs8PT1RUFDv7erDoHbT1NTp4dfMs5bDw8Fwbmyrq6uTk5ODhITezrvYw6ylo58XCVTMAAAADnRSTlMARyiIxY+JD+SeSUqRRqtY5KEAAAFISURBVDiNjVPZdoQgDMVTHbVLImFH1P//ywmonaXT0vsScnJJbkIQ4oamaweAoe0a8QL9CHcY++f4BZ7w9nh9eI5zqbsk/c9wRl+J3xgv8h9VftF3w+XPAmeRvX9ljMrWGmOLb232RyZkN6KUKMkblMjH5KaCFUCID44HpMKIMls+TLoQNEAjPkucvFJ+DkSGs2+kHedX6wLQiRa8JNolSUzZLHqyp8qWh5AIzUEgjHzVTlqfjIE1EsnDm7MGmr3WrEGvpS0msMIzoSfuApFcJujJZcIAgaT6nozyidMEsIvjVhYu0cKGOD+M76jJUhyL7EBJkrGMK5p7gsqETnxB7hMxJZIbK4wbEQW3LuuUu23KqA0WMGG3tE+aJcD5WDzFMHswMYU0G7Crc25R+2NVn7u6MPWVqy9tde3rH6f+9f7xeTPeX33/K05cMeRjfXaQAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "10",
+      "name": "CSS Snippets",
+      "description": "Galería de fragmentos CSS reutilizables y elegantes.",
+      "url": "https://cssnippets.shefali.dev/",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA7VBMVEVHcExuTsgVfPQMgPh6R+UHgfkVeP4Qe/tHYOIhcfw2aPBOXd1SWPBQWexEXv8+YvpdVOxVWepEX/lTV/lVVvZWVvlOWvpZVPtYVP5hUPppTfRlTP9uSftsS/V4Re9xRv9xR/55ROyBP/R9P/9+Qfp8QPl9QuuPOPWKOP2jLcySNfuXMf+WM/mcMe6lLPajK/2rKfSzJeShL/GxJvCvJf62I/iyJdKtJ/S8Hv+7IPvBHPzKGfbJF//KF/vCHe3JGuTLGO/VEP/UEf62I9nhC/3oCPnnCPzeD/fdDuriC+roCvPmCfH0Av3tBfTxBPiQRu86AAAAT3RSTlMABlOJC6j/zBHvcB1sRf/QOCXnzpeu9/b/1r3/741n//WbvP//8VLL/xXf//l2z/+zRaaN/+0i4f//9c3/3m5Zqf/4J/7b8c6AMqeP/7PQIJpG2gAAAT1JREFUeAGUTAMCBDEMzNq2zf8/8Jr27J0yIzgEjvus8QIvfsxJsvRRFBVZgE9QNVn/KBqyxr+JmAY+lu24oBuPmuf4lNFtxwPHd7mbJJq+HVAxtCMVAjs2r2EvTNI0o2OQRnilaeQyzcoLgkzFf1lUAGyuca7LhiBnzqYlnNchU1YccP0wDGMNFMYwzfjOEyEnEcRlXfsNGOZ1Zw1ct64riqdGxeoAYSCIgg9IHXzH3d096b8c9nCHufU5SVYuUpHE08jtRUkmqWqaphsnaWoqGIapERw2lk04lgtCtXWqguKxm75ho+P7fqALdHZ8i6oV0CE8fYcRxXGc0OyGcUr7cc04nBDyomDSKEuDyaKIKtzI6oZkWrdU0dU9HhhGOk9zC2LM8MSGA5Z5BSHgHes84hNCM/f4xGYYBPzNAa7WKKib927tAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "9885",
+      "name": "Code Pen",
+      "description": "Red Social",
+      "url": "https://codepen.io/",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAeFBMVEUYGSEZGSAaGR8dGRsdFxcSCQoLAAAVDQ4AAAAQCApnZmaHhoZubW1XVVXR0dH////a2tq3trbJyckaFBXz8/Po6OjQz9C+vb6fnp5PTU53dXaWlpZ7enpcWls8OTozLzCura1HREWMi4stKiqlpKVKSEnv7+/f398zybgMAAABIklEQVR4Aa2SBZLDQBADL4syKswM9v9/eDOBjQPFUYGhq7X495v0JN+Jsc6H4J01n5KNyPKiKC28fdONQ1Xzmn4OZ97YgClDjDq059CnpqzGlEzgns1WPTWy0e1tCptKY0VJjtm8qLFQeZmZJE5Vk8rVWqpVniTVBXKJmQjrjXYGKdqO7tPxOQmsOF743W7CPUAWoXeDoRA4OGwhpUccTjOBZ5gOHOYRc4o2WtRd6EutXXJy2i5QiwxpCOY+IUturttQLnQL7I68xLQUAXtRdSkirsgmLcXodNkcUM+LiTu1JAtpTeqQVPl0Ek3SwnY3fkKVLzvVOB51j8WMMGVKO4rvB7pUWfUCyUvXJMO2OJ+PFwRrvlywUQBCfEdJN0bJD/IP8jcXyExc3KsAAAAASUVORK5CYII="
+    },
+    {
+      "id": "7fc0",
+      "name": "Antigravity",
+      "description": "IDE de Google",
+      "url": "https://antigravity.google/",
+      "image": "data:image/jpeg;base64,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"
+    }
+  ]
 }
